@@ -18,6 +18,14 @@ export default function ProjectsListHome():JSX.Element {
             Modal
             </NavLink>
             </li>
+
+            <li className={style.listElement}>
+            <NavLink to="quiz" className={style.link}>
+           Quiz
+            </NavLink>
+            </li>
+
+            
             
             </ul>
         </nav>

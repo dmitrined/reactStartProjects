@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import LayOut from "./components/LayOut/LayOut";
 import Counter from "./components/Projects/Counter/Counter";
 import Modal from "./components/Projects/Modal/Modal";
+import Quiz from "./components/Projects/Quiz/Quiz";
 
 
 function App(): JSX.Element {
@@ -14,11 +15,7 @@ function App(): JSX.Element {
         <Route index element={<Counter />} /> 
         <Route path="counter" element={<Counter />} />
          <Route path="modal" element={<Modal />} />
-       
-
-       
-       
-
+         <Route path="quiz" element={<Quiz />} />
 
       </Route>
     </Routes>
